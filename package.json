@@ -1,0 +1,26 @@
+{
+  "name": "jnsilva1.io",
+  "version": "1.0.0",
+  "description": "Library to read files in javascript and convert audios wav to mp3. It depends on lamejs. Use is free!",
+  "main": "index.js",
+  "scripts": {
+    "test": "ioTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnsilva1/Javascript.IO.git"
+  },
+  "keywords": [
+    "javascript;",
+    "io;",
+    "wave;",
+    "wav;",
+    "mp3"
+  ],
+  "author": "Jose Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnsilva1/Javascript.IO/issues"
+  },
+  "homepage": "https://github.com/jnsilva1/Javascript.IO#readme"
+}
