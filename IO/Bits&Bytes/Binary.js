@@ -9,6 +9,13 @@ class Binary{
         this.bits = bits;
     }
 
+    /**
+     * @returns {number}
+     */
+    get bitsLength(){
+        return this.bits.length;
+    }
+
     assertIsBinary(other){
         if(!(other instanceof Binary))
             throw new Error('Not an instance of Binary');
@@ -152,6 +159,10 @@ class Binary{
         return new Binary(newBits);
     }
 
+    /**
+     * Converts the binary in hexdecimal string
+     * @returns {string}
+     */
     toHexString(){
         const GROUP = 4;
         const HEXVALUES = [0,1,2,3,4,5,6,7,8,9,'A','B','C', 'D', 'E', 'F'].map(v=> v.toString());

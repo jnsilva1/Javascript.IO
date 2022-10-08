@@ -2,19 +2,20 @@
   "name": "jnsilva1.io",
   "version": "1.0.0",
   "description": "Library to read files in javascript and convert audios wav to mp3. It depends on lamejs. Use is free!",
-  "main": "index.js",
+  "main": "IO/Index.js",
   "scripts": {
-    "test": "ioTest"
+    "test": "ioTest",
+    "start": "node io/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jnsilva1/Javascript.IO.git"
   },
   "keywords": [
-    "javascript;",
-    "io;",
-    "wave;",
-    "wav;",
+    "javascript",
+    "io",
+    "wave",
+    "wav",
     "mp3"
   ],
   "author": "Jose Silva",
@@ -22,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/jnsilva1/Javascript.IO/issues"
   },
-  "homepage": "https://github.com/jnsilva1/Javascript.IO#readme"
+  "homepage": "https://github.com/jnsilva1/Javascript.IO#readme",
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.6.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "7.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp-uglify": "3.0.0",
+    "lamejs": "^1.2.1"
+  },
+  "devDependencies": {
+    "gulp-minify": "^3.1.0"
+  }
 }

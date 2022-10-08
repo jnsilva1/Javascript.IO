@@ -1,11 +1,8 @@
-const CanonicalAudioFormats = require('./CanonicalFileFormat');
-const WaveAudio = require('./Audios/WaveAudio');
-const MP3Audio = require('./Audios/MP3Audio');
+const CanonicalAudioFormats = require('./CanonicalFileFormat.js');
+const WaveAudio = require('./Audios/WaveAudio.js');
+const MP3Audio = require('./Audios/MP3Audio.js');
 
 class Audio{
-
-    Type = null || "" ;
-
 
     constructor(){
 
